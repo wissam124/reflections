@@ -36,16 +36,20 @@ treat each file separately?
 Git is a system designed to manage complex development projects where
 good design is usually modular.
 
-5. How can you use the commands git log and git diff to view the history of files?
+5. How can you use the commands git log and git diff to view the
+history of files?
 
 - git log allows the user to see the whole history of commits
 - git diff allows the user to compare one commit to another
 
-6. How might using version control make you more confident to make changes that could break something?
+6. How might using version control make you more confident to make
+changes that could break something?
 
-I know I can experiment since I can always come back to a previous version of my code provided I have
-committed it.
+I know I can experiment since I can always come back to a previous
+version of my code provided I have committed it.
 
-7. Now that you have your workspace set up, what do you want to try using Git for?
+7. Now that you have your workspace set up, what do you want to try
+using Git for?
 
 Manage efficiently codebase collaboration.
+Test 2
