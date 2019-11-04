@@ -19,8 +19,12 @@ The staging area is an intermediate area where files can be added one at a time
 before being committed to the repository. It creates a temporary silo where
 all changes can be added and reviewed (through git status) before a commit.
 
-How can you use the staging area to make sure you have one commit per logical
+3. How can you use the staging area to make sure you have one commit per logical
 change?
+
+By running git diff --staged, we can compare the changes between files
+in the staging area and the most recent commit, helping us to make
+sure we have one commit per logical change.
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?

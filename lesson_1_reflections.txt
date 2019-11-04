@@ -52,4 +52,3 @@ version of my code provided I have committed it.
 using Git for?
 
 Manage efficiently codebase collaboration.
-Test 2
