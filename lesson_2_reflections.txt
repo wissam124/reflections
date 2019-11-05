@@ -26,10 +26,17 @@ By running git diff --staged, we can compare the changes between files
 in the staging area and the most recent commit, helping us to make
 sure we have one commit per logical change.
 
-What are some situations when branches would be helpful in keeping your history
-organized? How would branches help?
+4. What are some situations when branches would be helpful in keeping
+your history organized? How would branches help?
 
-How do the diagrams help you visualize the branch structure?
+Branching allows the user to carry out multiple developments in a
+parallel fashion. Branches specific to experimental features or
+different versions (say translation) can be created while the main
+branch is unaffected (and can still be modified and committed should
+any bugs arise). The mechanism of merging then allows various branches
+to tie back.
+
+5. How do the diagrams help you visualize the branch structure?
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
