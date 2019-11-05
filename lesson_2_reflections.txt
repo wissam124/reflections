@@ -38,8 +38,14 @@ to tie back.
 
 5. How do the diagrams help you visualize the branch structure?
 
-What is the result of merging two branches together? Why do we represent it in
+
+6. What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
+After merging two branches together, common parts of the code will be
+kept while additions from the common reachable parent between the two
+branches will be added. Likewise, deletions from the common reachable
+parent that may have been introduced in any of the two branches will
+be kept removed from the merged commit.
 
 What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
